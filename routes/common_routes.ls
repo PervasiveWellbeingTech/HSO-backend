@@ -24,7 +24,7 @@ app.get '/app_version', (ctx) ->>
   if not appid?
     ctx.body = {response: 'error', error: 'need appid'}
     return
-  if not (appid == 'obghclocpdgcekcognpkblghkedcpdgd' or appid == 'bleifeoekkfhicamkpadfoclfhfmmina')
+  if not (appid == 'obghclocpdgcekcognpkblghkedcpdgd' or appid == 'bleifeoekkfhicamkpadfoclfhfmmina' or appid == 'alpaieokpbmkipilneofoclhpikonged')
     ctx.body = {response: 'error', error: 'appid is not habitlab'}
     return
   time_checked = appid_to_time_checked[appid] ? 0
