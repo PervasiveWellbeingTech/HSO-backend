@@ -1,4 +1,4 @@
-# habitlab-website
+# HSO Backend
 
 ## Setting up and running
 
